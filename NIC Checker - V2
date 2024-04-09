@@ -1,0 +1,209 @@
+i=int(input("Enter your NIC number = "))
+j=str(i)
+a=len(j)
+if a==9:
+    b=j[0:2]
+    bi="19{}"
+    by=bi.format(b)
+    e=(j[2:5])
+    d=int(e)
+    if d<500:
+        g="Male"
+        if d<=31:
+            m="January"
+            n=d
+        else:
+            if d<=60:
+                m="February"
+                n=d-31
+            else:
+                if d<=91:
+                    m="March"
+                    n=d-60
+                else:
+                    if d<=121:
+                        m="April"
+                        n=d-91
+                    else:
+                        if d<=152:
+                            m="May"
+                            n=d-121
+                        else:
+                            if d<=182:
+                                m="June"
+                                n=d-152
+                            else:
+                                if d<=213:
+                                    m="July"
+                                    n=d-182
+                                else:
+                                    if d<=244:
+                                        m="August"
+                                        n=d-213
+                                    else:
+                                        if d<=274:
+                                            m="September"
+                                            n=d-244
+                                        else:
+                                            if d<=305:
+                                                m="October"
+                                                n=d-274
+                                            else:
+                                                if d<=335:
+                                                    m="November"
+                                                    n=d-305
+                                                else:
+                                                    m="December"
+                                                    n=d-335
+    else:
+        g="Female"
+        if d<=531:
+            m="January"
+            n=d-500
+        else:
+            if d<=560:
+                m="February"
+                n=d-531
+            else:
+                if d<=591:
+                    m="March"
+                    n=d-560
+                else:
+                    if d<=621:
+                        m="April"
+                        n=d-591
+                    else:
+                        if d<=652:
+                            m="May"
+                            n=d-621
+                        else:
+                            if d<=682:
+                                m="June"
+                                n=d-652
+                            else:
+                                if d<=713:
+                                    m="July"
+                                    n=d-682
+                                else:
+                                    if d<=744:
+                                        m="August"
+                                        n=d-713
+                                    else:
+                                        if d<=774:
+                                            m="September"
+                                            n=d-744
+                                        else:
+                                            if d<=805:
+                                                m="October"
+                                                n=d-774
+                                            else:
+                                                if d<=835:
+                                                    m="November"
+                                                    n=d-805
+                                                else:
+                                                    m="December"
+                                                    n=d-835
+else:
+    by=(j[0:4])
+    e=(j[4:7])
+    d=int(e)
+    if d<500:
+        g="Male"
+        if d<=31:
+            m="January"
+            n=d
+        else:
+            if d<=60:
+                m="February"
+                n=d-31
+            else:
+                if d<=91:
+                    m="March"
+                    n=d-60
+                else:
+                    if d<=121:
+                        m="April"
+                        n=d-91
+                    else:
+                        if d<=152:
+                            m="May"
+                            n=d-121
+                        else:
+                            if d<=182:
+                                m="June"
+                                n=d-152
+                            else:
+                                if d<=213:
+                                    m="July"
+                                    n=d-182
+                                else:
+                                    if d<=244:
+                                        m="August"
+                                        n=d-213
+                                    else:
+                                        if d<=274:
+                                            m="September"
+                                            n=d-244
+                                        else:
+                                            if d<=305:
+                                                m="October"
+                                                n=d-274
+                                            else:
+                                                if d<=335:
+                                                    m="November"
+                                                    n=d-305
+                                                else:
+                                                    m="December"
+                                                    n=d-335
+    else:
+        g="Female"
+        if d<=531:
+            m="January"
+            n=d-500
+        else:
+            if d<=560:
+                m="February"
+                n=d-531
+            else:
+                if d<=591:
+                    m="March"
+                    n=d-560
+                else:
+                    if d<=621:
+                        m="April"
+                        n=d-591
+                    else:
+                        if d<=652:
+                            m="May"
+                            n=d-621
+                        else:
+                            if d<=682:
+                                m="June"
+                                n=d-652
+                            else:
+                                if d<=713:
+                                    m="July"
+                                    n=d-682
+                                else:
+                                    if d<=744:
+                                        m="August"
+                                        n=d-713
+                                    else:
+                                        if d<=774:
+                                            m="September"
+                                            n=d-744
+                                        else:
+                                            if d<=805:
+                                                m="October"
+                                                n=d-774
+                                            else:
+                                                if d<=835:
+                                                    m="November"
+                                                    n=d-805
+                                                else:
+                                                    m="December"
+                                                    n=d-835
+        
+print("\n Birth Year - ",by,"\n Month - ",m,"\n Date - ",n,"\n Gender - ",g)
+
+
