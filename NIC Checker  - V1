@@ -4,3 +4,4 @@ c=(b[0:4])
 d=int(c)
 print("Birth year = ",c)
 print("Age = ",2023-d) #Please change the year to present.
+
